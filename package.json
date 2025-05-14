@@ -1,0 +1,24 @@
+{
+  "name": "snowflake-email-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/module.js",
+  "scripts": {
+    "tsc": "tsc -p .",
+    "zip": "tar cfz extension.tar.gz build/* package.json package-lock.json README.md icon.png",
+    "zipFull": "tar cfz extension.tar.gz build/* node_modules/* package.json package-lock.json README.md icon.png",
+    "build": "npm run tsc && npm run zip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@cognigy/extension-tools": "^0.16.4",
+    "snowflake-sdk": "^2.1.0"
+  }
+}
