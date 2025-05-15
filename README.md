@@ -31,7 +31,8 @@ To use this Extension, you must define the following Secrets in Cognigy:
 
 ## Author
 
-Dr. Franco ArdaCognigy AI Certified Specialist
+Dr. Franco Arda 
+Cognigy AI Certified Specialist
 
 ## Disclaimer
 
