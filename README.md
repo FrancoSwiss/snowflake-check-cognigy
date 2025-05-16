@@ -28,7 +28,10 @@ To use this Extension, you must define the following Secrets in Cognigy:
 2. Use this node to check if the email exists.
 3. Branch based on `isMatch`.
 
-![description]([https://static.wixstatic.com/media/7467c1_89f6fa8de1574f5eb319cb22ad39dd0b~mv2.png)
+
+
+![Snowflake_Cognigy_3](https://github.com/user-attachments/assets/0394dbbd-eebe-4779-b581-d64b8eca86b7)
+
 
 
 ## Author
