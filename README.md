@@ -1,8 +1,7 @@
 # Snowflake Email Check Extension
 This Cognigy Extension checks if an email address exists in the Snowflake `CUSTOMER` table from the sample dataset (`PTCDS_SF100TCL.TPCDS_SF100TCL.CUSTOMER`).
 
-## Usage
-## Outputs| Output Key | Type    | Description                                 ||------------|---------|---------------------------------------------|| `isMatch`  | Boolean | `true` if email exists in CUSTOMER table, else `false` |
+                          
 
 The `Check Email in Snowflake` node takes an email address as input and returns:
 
@@ -28,6 +27,9 @@ To use this Extension, you must define the following Secrets in Cognigy:
 1. Ask user for email address.
 2. Use this node to check if the email exists.
 3. Branch based on `isMatch`.
+
+![description]([https://static.wixstatic.com/media/7467c1_89f6fa8de1574f5eb319cb22ad39dd0b~mv2.png)
+
 
 ## Author
 
