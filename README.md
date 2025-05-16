@@ -1,4 +1,4 @@
-# Snowflake Email Check Extension
+# Snowflake Email Check Extension - Cognigy AI Extension
 This Cognigy Extension checks if an email address exists in the Snowflake `CUSTOMER` table from the sample dataset (`PTCDS_SF100TCL.TPCDS_SF100TCL.CUSTOMER`).
 
 ![Snowflake_VSC2 (1)](https://github.com/user-attachments/assets/40b4b844-d1a3-4258-9e90-28255edf27f9)
@@ -8,9 +8,8 @@ The `Check Email in Snowflake` node takes an email address as input and returns:
 - `isMatch` = `true` if the email exists
 - `isMatch` = `false` otherwise
 
-## Configuration
-
-To use this Extension, you must define the following Secrets in Cognigy:
+## Snowflake-Cognigy Extension: A Quick Overview
+We created a custom Cognigy Extension that queries a Snowflake sample dataset (Snowflake_Sample_Data) containing placeholder email addresses. The goal was to extract email information and validate it against user input within a Cognigy flow.
 
 | Key | Description |
 |-----|-------------|
@@ -22,6 +21,9 @@ To use this Extension, you must define the following Secrets in Cognigy:
 | `SNOWFLAKE_SCHEMA` | Schema name (e.g. `TPCDS_SF100TCL`) |
 | `SNOWFLAKE_ROLE` | (Optional) Role to use, e.g. `ACCOUNTADMIN` |
 
+![Snowflake_Data](https://github.com/user-attachments/assets/654d16a2-723c-4909-9ae3-46b727ca2fd5)
+
+
 #Smart Credential Handling
 We do not embed Snowflake usernames or passwords into the API call. Instead, secrets are managed directly in the Cognigy UI. 
 
@@ -29,8 +31,6 @@ This has several benefits:
 - Keeps sensitive data secure and outside the source code.
 - Allows other teams to reuse the Extension with their own credentials.
 - Makes deployments more compliant with security best practices.
-
-![Snowflake_Data](https://github.com/user-attachments/assets/654d16a2-723c-4909-9ae3-46b727ca2fd5)
 
 ## Example Flow
 
