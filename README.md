@@ -22,6 +22,13 @@ To use this Extension, you must define the following Secrets in Cognigy:
 | `SNOWFLAKE_SCHEMA` | Schema name (e.g. `TPCDS_SF100TCL`) |
 | `SNOWFLAKE_ROLE` | (Optional) Role to use, e.g. `ACCOUNTADMIN` |
 
+#Smart Credential Handling
+We do not embed Snowflake usernames or passwords into the API call. Instead, secrets are managed directly in the Cognigy UI. 
+
+This has several benefits:
+- Keeps sensitive data secure and outside the source code.
+- Allows other teams to reuse the Extension with their own credentials.
+- Makes deployments more compliant with security best practices.
 
 ![Snowflake_Data](https://github.com/user-attachments/assets/654d16a2-723c-4909-9ae3-46b727ca2fd5)
 
