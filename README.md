@@ -24,7 +24,7 @@ We created a custom Cognigy Extension that queries a Snowflake sample dataset (S
 ![Snowflake_Data](https://github.com/user-attachments/assets/654d16a2-723c-4909-9ae3-46b727ca2fd5)
 
 
-#Smart Credential Handling
+# Smart Credential Handling
 We do not embed Snowflake usernames or passwords into the API call. Instead, secrets are managed directly in the Cognigy UI. 
 
 This has several benefits:
@@ -32,15 +32,14 @@ This has several benefits:
 - Allows other teams to reuse the Extension with their own credentials.
 - Makes deployments more compliant with security best practices.
 
+![Snowflake_Cognigy_3](https://github.com/user-attachments/assets/0394dbbd-eebe-4779-b581-d64b8eca86b7)
+
 ## Example Flow
 
 1. Ask user for email address.
 2. Use this node to check if the email exists.
 3. Branch based on `isMatch`.
 
-![Snowflake_Cognigy_3](https://github.com/user-attachments/assets/0394dbbd-eebe-4779-b581-d64b8eca86b7)
-
-# Reusable Agent Flow Example
 Our Snowflake Extension is seamlessly integrated into a Cognigy flow. Following the Extension call, the logic evaluates the boolean result and adapts the conversation accordingly — making the bot more intelligent and personalized.
 
 ![Snow](https://github.com/user-attachments/assets/9a53a9e5-ee1f-4acf-94bd-81a26d8128ee)
