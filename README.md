@@ -1,4 +1,4 @@
-# Snowflake Email Check Extension - Cognigy AI Extension
+# Cognigy AI Extension for Snowflake
 This Cognigy Extension checks if an email address exists in the Snowflake `CUSTOMER` table from the sample dataset (`PTCDS_SF100TCL.TPCDS_SF100TCL.CUSTOMER`).
 
 ![Snowflake_VSC2 (1)](https://github.com/user-attachments/assets/40b4b844-d1a3-4258-9e90-28255edf27f9)
